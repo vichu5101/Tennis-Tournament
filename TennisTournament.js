@@ -7,7 +7,7 @@ tennisTournamentPlayerList = [{ PlayerID: "RF1", Player: "Roger Federer", Rank: 
 { PlayerID: "FS6", Player: "Frank Sedgman", Rank: 6 },
 { PlayerID: "SS7", Player: "Stan Smith", Rank: 7 },
 { PlayerID: "SK8", Player: "Svetlana Kuznetsova", Rank: 8 }]
-//----------------------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------------
 // Initial Match Schedule
 match = []
 for (i = 0; i < tennisTournamentPlayerList.length / 2; i++) {
@@ -17,7 +17,7 @@ for (i = 0; i < tennisTournamentPlayerList.length / 2; i++) {
     match.push(ob)
 
 }
-//----------------------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------------
 // Scheduled Matches
 scheduledMatches = []
 poolList = []
